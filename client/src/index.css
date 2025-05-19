@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 240 10% 3.9%; /* dark-900 */
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 180 59% 52%; /* #3CCFCF */
+  --primary-foreground: 211 100% 99%;
+  --secondary: 286 75% 47%; /* #7928CA */
+  --secondary-foreground: 0 0% 98%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+  --radius: 0.5rem;
+
+  /* Custom colors */
+  --dark-100: 220 14% 69%;
+  --dark-200: 218 11% 52%;
+  --dark-800: 0 0% 12%;
+  --dark-900: 0 0% 7%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-poppins bg-dark-900 text-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-inter;
+  }
+}
+
+@layer utilities {
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .bg-dark-100 {
+    background-color: hsl(var(--dark-100));
+  }
+
+  .bg-dark-200 {
+    background-color: hsl(var(--dark-200));
+  }
+
+  .bg-dark-800 {
+    background-color: hsl(var(--dark-800));
+  }
+
+  .bg-dark-900 {
+    background-color: hsl(var(--dark-900));
+  }
+
+  .text-dark-100 {
+    color: hsl(var(--dark-100));
+  }
+
+  .text-dark-200 {
+    color: hsl(var(--dark-200));
+  }
+
+  .page-transition {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+
+  .nav-dot {
+    transition: background-color 0.3s ease, width 0.3s ease;
+  }
+
+  .nav-dot.active {
+    background-color: hsl(var(--primary));
+    width: 2rem;
+  }
+}

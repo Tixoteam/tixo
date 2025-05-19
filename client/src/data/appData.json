@@ -1,0 +1,87 @@
+{
+  "wame": "https://wa.me/6282285357346?text=",
+  "botRentals": [
+    {
+      "id": 1,
+      "title": "Minggu",
+      "description": "Sewa Bot selama 1 minggu penuh. unlock fitur umum sepenuhnya.",
+      "image": "https://images.unsplash.com/photo-1636751364472-12bfad09b451?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 20000,
+      "priceUnit": "bulan",
+      "badge": {
+        "text": "Premium",
+        "type": "primary"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Bulanan",
+      "description": "Sewa Bot selama 1 bulan penuh. unlock fitur umum sepenuhnya.",
+      "image": "https://images.unsplash.com/photo-1636751364472-12bfad09b451?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": 40000,
+      "priceUnit": "bulan",
+      "badge": {
+        "text": "Terlaris",
+        "type": "secondary"
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Pembuatan Bot Kustom",
+      "description": "Solusi bot WhatsApp yang disesuaikan secara khusus sesuai lebutuhan anda.",
+      "icon": "code",
+      "iconBackground": "primary",
+      "priceText": "Mulai dari Rp30.000"
+    },
+    {
+      "id": 2,
+      "title": "Jasa pembuatan fitur",
+      "description": "Membuat fitur sesuai keinginan anda dan sesuai request.",
+      "icon": "settings",
+      "iconBackground": "secondary",
+      "priceText": "Mulai dari Rp5.000"
+    },
+    {
+      "id": 3,
+      "title": "Script Tixo",
+      "description": "Script Bot whatsapp simple, mudah digunakan, kustomisasi penuh.",
+      "icon": "settings",
+      "iconBackground": "secondary",
+      "priceText": "Mulai dari Rp80.000"
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "Group Official Tixo",
+      "description": "Group publik para pengguna Bot Tixo.",
+      "icon": "code",
+      "iconBackground": "primary",
+      "memberCount": "9.999+",
+      "language": "Indonesia",
+      "url": "https://chat.whatsapp.com/Dm6hnFHlg8D737nluwwa3k"
+    },
+    {
+      "id": 2,
+      "name": "Channel Official Tixo",
+      "description": "Channel Informasi tentang Tixo Bot.",
+      "icon": "code",
+      "iconBackground": "secondary",
+      "memberCount": "9.999+",
+      "language": "Global",
+      "url": "https://whatsapp.com/channel/0029VazJBo5CHDyuCsEML30Q"
+    },
+    {
+      "id": 3,
+      "name": "Bot Tixo",
+      "description": "Nomor Whatsapp Bot Tixo.",
+      "icon": "code",
+      "iconBackground": "secondary",
+      "memberCount": "9.999+",
+      "language": "Global",
+      "url": "https://wa.me/6281231804035"
+    }
+  ]
+}
